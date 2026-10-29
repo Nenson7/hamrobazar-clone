@@ -1,6 +1,9 @@
 <script lang="ts">
 	import favicon from '#lib/assets/favicon.svg';
 	import type { LayoutProps } from './$types';
+	import "@fontsource/poppins"
+
+	import "./layout.css"
 
 	let { children }: LayoutProps = $props();
 </script>
